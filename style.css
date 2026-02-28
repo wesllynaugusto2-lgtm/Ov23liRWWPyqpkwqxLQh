@@ -1,0 +1,25 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0a0a0a; color: #fff; min-height: 100vh; display: flex; justify-content: center; }
+.app { max-width: 430px; width: 100%; }
+.header { padding: 12px 16px; display: flex; align-items: center; }
+.brand { font-size: 20px; font-weight: 800; font-style: italic; }
+.cover { height: 180px; background: linear-gradient(135deg, #1a1a2e, #16213e); background-size: cover; background-position: center; position: relative; }
+.avatar-wrapper { position: absolute; bottom: -40px; left: 50%; transform: translateX(-50%); }
+.avatar { width: 96px; height: 96px; border-radius: 50%; border: 3px solid #0a0a0a; object-fit: cover; }
+.online-dot { position: absolute; bottom: 4px; right: 4px; width: 14px; height: 14px; background: #22c55e; border-radius: 50%; border: 2px solid #0a0a0a; }
+.profile-info { padding: 52px 20px 20px; text-align: center; }
+.name { font-size: 22px; font-weight: 700; }
+.verified { color: #f59e0b; font-size: 16px; }
+.username { color: #888; font-size: 14px; margin-top: 2px; }
+.bio { font-size: 14px; margin-top: 12px; line-height: 1.5; color: #ccc; }
+.stats { display: flex; justify-content: center; gap: 24px; margin-top: 20px; }
+.stat { display: flex; flex-direction: column; align-items: center; }
+.stat-value { font-size: 18px; font-weight: 700; }
+.stat-label { font-size: 11px; color: #888; text-transform: uppercase; }
+.instagram-btn { display: inline-block; margin-top: 16px; padding: 8px 24px; border-radius: 20px; background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045); color: #fff; text-decoration: none; font-size: 14px; font-weight: 600; }
+.section-title { font-size: 16px; font-weight: 700; margin-top: 24px; margin-bottom: 12px; text-align: left; }
+.pricing { margin-top: 24px; }
+.subscribe-btn { width: 100%; padding: 14px 24px; border: none; border-radius: 999px; background: linear-gradient(135deg, hsl(28, 85%, 65%), hsl(20, 90%, 60%)); color: #fff; font-size: 16px; font-weight: 700; cursor: pointer; display: flex; justify-content: space-between; align-items: center; text-decoration: none; }
+.promos-section { margin-top: 16px; }
+.promos { display: flex; flex-direction: column; gap: 12px; }
+.promo-btn { width: 100%; padding: 14px 24px; border-radius: 999px; background: linear-gradient(135deg, hsl(28, 90%, 70%), hsl(15, 85%, 55%)); color: #fff; font-size: 15px; font-weight: 600; display: flex; justify-content: space-between; align-items: center; text-decoration: none; }
